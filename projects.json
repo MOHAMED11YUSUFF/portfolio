@@ -1,0 +1,9 @@
+{
+  "mini_projects": [
+    {
+      "name": "Patent Duplicate Detector",
+      "description": "A tool that identifies duplicate or highly similar patents by leveraging Sentence Transformers to generate embeddings and compute similarity scores. The system highlights potential duplicates and calculates the proportion of matching content, helping researchers and patent analysts avoid redundancy and ensure originality.",
+      "reference": "https://github.com/MOHAMED11YUSUFF/texus"
+    }
+  ]
+}

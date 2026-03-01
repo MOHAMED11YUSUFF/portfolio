@@ -1,0 +1,4 @@
+I am Mohamed Yusuff, an aspiring Software Engineer pursuing B.Tech in Information Technology at Easwari Engineering College. Passionate 
+about problem-solving and technology, I have hands-on experience in Python, Django, FastAPI, and AI/ML projects. I am eager to work across 
+tech stacks—from full-stack development to data science and cloud solutions—as a Software Engineer Intern, and grow into a Software Engineer 
+Trainee. 

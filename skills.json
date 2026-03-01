@@ -1,0 +1,37 @@
+{
+  "programming_languages": [
+    "Python",
+    "Java",
+    "C++",
+    "C"
+  ],
+  "databases_and_cloud": [
+    "Oracle SQL",
+    "MySQL",
+    "SQL Server",
+    "PostgreSQL",
+    "MongoDB",
+    "Google Cloud"
+  ],
+  "tools_and_frameworks": [
+    "Django",
+    "FastAPI",
+    "Tableau Next",
+    "DBeaver",
+    "Postman",
+    "NumPy",
+    "Pandas",
+    "Matplotlib",
+    "Seaborn",
+    "Scikit-learn"
+  ],
+  "soft_skills": [
+    "Problem Solving",
+    "Analytical Thinking",
+    "Communication Skills",
+    "Team Collaboration",
+    "Time Management",
+    "Adaptability",
+    "Continuous Learning"
+  ]
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "image": "eec.webp",
+    "Institute Name": "Easwari Engineering College",
+    "Degree": "B.Tech",
+    "Branch": "Information Technology",
+    "Batch": "2023-2027",
+    "CGPA": "8.61/10"
+  },
+  {
+    "image": "sana-model-school-chennai-sana-43.jpg",
+    "School Name": "Sana Model School",
+    "Class": "Higher Secondary School",
+    "Batch": "2021-2023",
+    "Marks": "89.8%"
+  },
+  {
+    "image": "sana-model-school-chennai-sana-43.jpg",
+    "School Name": "Sana Model School",
+    "Class": "High School",
+    "Batch": "2019-2021",
+    "Marks": "95.2%"
+  }
+]

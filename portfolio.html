@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Yusuff | Portfolio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="portfolio.css?cache=false">
+    <!-- SheetJS library to read Excel files -->
+    <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+    <!--================== HOME SECTION ==================-->
+    <section id="home" class="home-section">
+        <div class="container">
+            <!-- Left Side: Photo + Personal Info -->
+            <div class="left-side">
+                <img src="myimg.jpg" alt="Mohamed Yusuff Photo" class="profile-photo">
+                <div id="personal-info" class="personal-info">
+                    <!-- Personal info from about.xlsx will be inserted here -->
+                </div>
+            </div>
+
+            <!-- Right Side: About + Education -->
+            <div class="right-side">
+                <!-- About Section -->
+                <div class="about-section">
+                    <h2>About</h2>
+                    <p id="about-content">
+                        <!-- About content from about.txt will be inserted here -->
+                    </p>
+                </div>
+
+                <!-- Education Section -->
+                <div class="education-section">
+                    <h2>Education</h2>
+                    <div id="education-content">
+                        <!-- Education info from education.xlsx will be inserted here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--================== SKILLS SECTION (Placeholder) ==================-->
+    <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <!-- You can add skills content later -->
+        <div id="skills-container"></div>
+    </section>
+
+    <!--================== WORK EXPERIENCE SECTION ==================-->
+    <section id="workexperience" class="workexperience-section">
+        <h2>Work Experience</h2>
+        <!-- Work experience content will be added later -->
+    </section>
+
+    <!--================== LEADERSHIP SECTION ==================-->
+    <section id="leaderships" class="leaderships-section">
+        <h2>Leaderships</h2>
+        <!-- Leadership roles and responsibilities will be added later -->
+    </section>
+
+    <!--================== HACKATHONS SECTION ==================-->
+    <section id="hackathons" class="hackathons-section">
+        <h2>Hackathons</h2>
+        <!-- Hackathon participations and awards will be added later -->
+    </section>
+
+    <!--================== MINI PROJECTS SECTION ==================-->
+    <section id="miniprojects" class="miniprojects-section">
+        <h2>Mini Projects</h2>
+        <!-- Mini projects details will be added later -->
+    </section>
+
+    <!--================== RESEARCH PAPERS SECTION ==================-->
+    <section id="researchpapers" class="researchpapers-section">
+        <h2>Research Papers Published</h2>
+        <!-- Research papers and publications will be added later -->
+    </section>
+
+    <!--================== ACHIEVEMENTS SECTION ==================-->
+    <section id="achievements" class="achievements-section">
+        <h2>Achievements</h2>
+        <!-- Achievements and recognitions will be added later -->
+    </section>
+
+    <!-- JS -->
+    <script src="portfolio.js?v=2"></script>
+</body>
+</html>

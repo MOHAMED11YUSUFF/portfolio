@@ -1,0 +1,10 @@
+{
+  "hackathons": [
+    {
+      "name": "Tableau Hackathon",
+      "project_title": "AMR Sentinel",
+      "description": "AMR Sentinel is an AI-powered Tableau Next platform that proactively detects emerging antimicrobial resistance threats using phenotypic surveillance data and delivers actionable recommendations to pharmaceutical teams. It de-risks drug development, accelerates regulatory compliance, and enables real-time, automated responses through Slack and Salesforce integration.",
+      "reference": "https://devpost.com/software/amr-sentinel?ref_content=user-portfolio&ref_feature=in_progress"
+    }
+  ]
+}

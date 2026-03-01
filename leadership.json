@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Assistant School Pupil Leader",
+    "school": "Sana Model School",
+    "year": "2021-2022",
+    "image": "sana-model-school-chennai-sana-43.jpg"
+  },
+  {
+    "title": "Safa House Captain",
+    "school": "Sana Model School",
+    "year": "2022-2023",
+    "image": "sana-model-school-chennai-sana-43.jpg"
+  },
+  {
+    "title": "Hosted Technical Quiz Event",
+    "event": "Brain Squeezer - Pinnacle 2K25",
+    "participants": 50,
+    "date": "22nd Feb 2025",
+    "image": "eec.webp"
+  },
+  {
+    "title": "ISTE Student Member",
+    "duration": "2024-2028",
+    "image": "ISTE-Logo.jpg"
+  }
+]

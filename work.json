@@ -1,0 +1,17 @@
+[
+  {
+    "image": "eec.webp",
+    "company": "Pesearch And Development Easwari Engineering College",
+    "role": "Research Intern",
+    "duration": "Apr 2025 - June 2025",
+    "description": "Worked for Illumine as a backend developer, using Gemma LLM and Tesseract OCR to detect customer addresses from large mixed-format documents including PDFs with text, images, and tables, as well as image-only files."
+  },
+  {
+    "image": "mnemonic-logo-with-bg.jpg",
+    "company": "TVS Next",
+    "role": "Backend Developer Intern",
+    "duration": "Jul 2025 - Oct 2025",
+    "description": "Worked as a Django Developer on the NexDox platform, building features using Django, FastAPI integration, and PostgreSQL/SQL Server. Gained hands-on experience with function-based views, API development, and foundational Google Cloud services.",
+    "Reporting Manager": "Kishore B"
+  }
+]

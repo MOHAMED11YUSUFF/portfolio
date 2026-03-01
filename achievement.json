@@ -1,0 +1,38 @@
+{
+  "achievements": {
+    "contests": [
+      {
+        "title": "Blind Coding Contest",
+        "position": "Winner"
+      },
+      {
+        "title": "Debugging Contest hosted by Eventhra",
+        "position": "Runner Up",
+        "year": 2025
+      },
+      {
+        "title": "CBSE Class 12 Mathematics",
+        "position": "First Rank"
+      }
+    ],
+    "certifications": [
+      {
+        "platform": "HackerRank",
+        "certifications": ["Problem Solving", "SQL", "Python"]
+      },
+      {
+        "platform": "NPTEL",
+        "certification": "Getting Started with Competitive Programming",
+        "level": "Silver Medal"
+      },
+      {
+        "platform": "IBM",
+        "certification": "Data Science Professional Certification"
+      },
+      {
+        "platform": "Oracle Academy",
+        "certification": "Java for AP Computer Science A"
+      }
+    ]
+  }
+}

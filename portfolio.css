@@ -1,0 +1,958 @@
+/*================== GENERAL STYLES ==================*/
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+h2 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+section h2 {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto 30px auto;  /* optional: center and add bottom spacing */
+    display: block;
+}
+
+/*================== HOME SECTION ==================*/
+.home-section {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    scroll-snap-align: start;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Left Side */
+.left-side {
+    width: 40%;
+    background-color: #ecf0f1;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.profile-photo {
+    width: 40%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.personal-info {
+    width: 100%;
+}
+
+/* Right Side */
+.right-side {
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    display: block; /* prevents nested flex interference */
+}
+
+.about-section,
+.education-section {
+    margin-bottom: 40px;
+}
+
+/*================== SKILLS SECTION ==================*/
+.skills-section {
+    min-height: 100vh;
+    padding: 40px;
+    background-color: #bdc3c7;
+    scroll-snap-align: start;
+}
+
+/* container */
+#education-content,
+#workexperience {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center; /* center cards */
+}
+
+/* main card */
+.edu-card {
+    display: grid;
+    grid-template-columns: 1fr 160px;
+    align-items: center;
+    gap: 20px;
+    padding: 16px 20px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    width: 100%;
+    max-width: 900px; /* constrain card width */
+    box-sizing: border-box;
+}
+
+/* left text */
+.edu-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+    overflow-y: auto; /* scroll if text is too long */
+    max-height: 300px; /* optional max height */
+}
+
+/* key-value rows */
+.edu-row {
+    display: flex;
+    gap: 6px;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.edu-key {
+    font-weight: 600;
+    color: #111827;
+    white-space: nowrap;
+}
+
+.edu-value {
+    color: #374151;
+}
+
+/* right image */
+.edu-image {
+    width: 160px;
+    height: 160px;
+    flex-shrink: 0;
+}
+
+.edu-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/*================== SKILLS SECTION ==================*/
+.skills-section {
+    padding: 60px 20px;
+    background-color: #fff; /* clean white background */
+    color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skills-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+
+/* ================= GRID ================= */
+#skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* ================= SKILL CARD ================= */
+.skill-card-bw {
+    background-color: #fafafa;
+    border: 1px solid #111;
+    border-radius: 20px;
+    padding: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card-bw:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.skill-card-bw h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-left: 4px solid #111;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+/* ================= SKILL CHIPS ================= */
+.skill-list-bw {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skill-chip-bw {
+    padding: 8px 14px;
+    border-radius: 25px;
+    border: 1px solid #111;
+    background-color: #fff;
+    color: #111;
+    font-size: 0.9rem;
+    cursor: default;
+    transition: all 0.25s ease;
+}
+
+.skill-chip-bw:hover {
+    background-color: #111;
+    color: #fff;
+    transform: scale(1.08);
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+    .edu-card {
+        grid-template-columns: 1fr; /* stack text + image vertically */
+    }
+    .edu-image {
+        width: 100%;
+        height: 200px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .skill-card-bw {
+        padding: 20px;
+    }
+    .skill-card-bw h3 {
+        font-size: 1.1rem;
+    }
+    .skill-chip-bw {
+        font-size: 0.85rem;
+        padding: 6px 12px;
+    }
+}
+
+
+/* =============================================
+   Leadership Section Styling
+   Two-column card layout (text + image)
+   ============================================= */
+
+#leaderships {
+    /* Main container - vertical stack of cards */
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;           /* space between cards */
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.lead-card {
+    /* Each experience = one card */
+    display: grid;
+    grid-template-columns: 1fr 280px;     /* text | image */
+    gap: 2rem;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08),
+                0 1px 6px rgba(0, 0, 0, 0.04);
+    overflow: hidden;
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.lead-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* ── Text content area ── */
+.lead-card .text-content {
+    padding: 1.8rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+}
+
+/* Each label-value row */
+.lead-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.9rem;
+    font-size: 1.05rem;
+    line-height: 1.45;
+    color: #2d3748;
+}
+
+.lead-key {
+    font-weight: 600;
+    color: #4a5568;
+    min-width: 140px;          /* consistent label width */
+    flex-shrink: 0;
+}
+
+.lead-value {
+    color: #1a202c;
+    flex: 1;
+}
+
+/* Special treatment for longer text blocks (description, achievements, etc.) */
+.lead-value.is-block {
+    min-width: 100%;
+}
+
+/* ── Image / Logo area ── */
+.lead-card .image-container {
+    background: #f7fafc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.lead-card img {
+    max-width: 100%;
+    max-height: 140px;          /* adjust depending on your logos */
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+/* =============================================
+   Mobile – stack vertically
+   ============================================= */
+@media (max-width: 768px) {
+    #leaderships {
+        gap: 1.8rem;
+    }
+
+    .lead-card {
+        grid-template-columns: 1fr;     /* single column */
+        grid-template-rows: auto 1fr;
+    }
+
+    .lead-card .image-container {
+        order: -1;                      /* image on top */
+        padding: 1.4rem 1rem;
+        background: #edf2f7;
+    }
+
+    .lead-card img {
+        max-height: 110px;
+    }
+
+    .lead-card .text-content {
+        padding: 1.6rem 1.4rem;
+    }
+
+    .lead-key {
+        min-width: 110px;
+    }
+}
+
+/* =============================================
+   Optional: better formatting for multi-line values
+   ============================================= */
+.lead-value p {
+    margin: 0.4em 0;
+}
+
+.lead-value ul,
+.lead-value ol {
+    margin: 0.6em 0 0.6em 1.4em;
+    padding-left: 0;
+}
+
+/* If you want to keep your current centering logic for odd number of cards */
+@media (min-width: 769px) {
+    .lead-card:last-child:only-child,
+    .lead-card:nth-last-child(odd):first-child {
+        grid-column: 1 / -1;
+        max-width: 680px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/* =============================================
+   Hackathons Section
+   ============================================= */
+
+.hackathons-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+}
+
+.hackathons-section h2 {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-size: 2.2rem;
+    color: #2d3748;
+}
+
+/* Each hackathon card */
+.hack-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);
+    padding: 2rem 2.2rem;
+    margin-bottom: 2rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-left: 5px solid #4299e1; /* nice accent color – change as you like */
+}
+
+.hack-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Header – Hackathon name + Project title */
+.hack-header {
+    margin-bottom: 1.4rem;
+}
+
+.hack-name {
+    font-size: 1.55rem;
+    font-weight: 700;
+    color: #2b6cb0;
+    margin: 0 0 0.4rem 0;
+}
+
+.project-title {
+    font-size: 1.28rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin: 0;
+}
+
+/* Description */
+.hack-description {
+    font-size: 1.07rem;
+    line-height: 1.65;
+    color: #4a5568;
+    margin-bottom: 1.6rem;
+}
+
+/* Metadata tags */
+.hack-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem 1.8rem;
+    margin-bottom: 1.4rem;
+    font-size: 0.98rem;
+}
+
+.hack-meta-item {
+    color: #4a5568;
+}
+
+.hack-meta-item strong {
+    color: #2d3748;
+}
+
+/* Link */
+.hack-link {
+    display: inline-block;
+    margin-top: 0.8rem;
+    color: #4299e1;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.hack-link:hover {
+    color: #2b6cb0;
+    text-decoration: underline;
+}
+
+/* Mobile adjustments */
+@media (max-width: 640px) {
+    .hack-card {
+        padding: 1.6rem 1.4rem;
+        border-left-width: 4px;
+    }
+
+    .hack-name {
+        font-size: 1.4rem;
+    }
+
+    .project-title {
+        font-size: 1.15rem;
+    }
+
+    .hack-description {
+        font-size: 1.02rem;
+    }
+
+    .hack-meta {
+        gap: 0.9rem 1.4rem;
+        font-size: 0.95rem;
+    }
+}
+
+
+/* =============================================
+   Mini Projects Section
+   ============================================= */
+
+.miniprojects-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+}
+
+.miniprojects-section h2 {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-size: 2.2rem;
+    color: #2d3748;
+}
+
+/* Each mini project card */
+.mini-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);
+    padding: 2rem 2.2rem;
+    margin-bottom: 2rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-left: 5px solid #48bb78; /* green accent – feels "project / code" like */
+}
+
+.mini-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Project name */
+.mini-name {
+    font-size: 1.55rem;
+    font-weight: 700;
+    color: #2f855a; /* darker green to match accent */
+    margin: 0 0 1rem 0;
+}
+
+/* Description */
+.mini-description {
+    font-size: 1.07rem;
+    line-height: 1.65;
+    color: #4a5568;
+    margin-bottom: 1.6rem;
+}
+
+/* Metadata */
+.mini-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem 1.8rem;
+    margin-bottom: 1.4rem;
+    font-size: 0.98rem;
+}
+
+.mini-meta-item {
+    color: #4a5568;
+}
+
+.mini-meta-item strong {
+    color: #2d3748;
+}
+
+/* GitHub / reference link */
+.mini-link {
+    display: inline-block;
+    margin-top: 0.6rem;
+    color: #48bb78;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.mini-link:hover {
+    color: #2f855a;
+    text-decoration: underline;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+    .mini-card {
+        padding: 1.6rem 1.4rem;
+        border-left-width: 4px;
+    }
+
+    .mini-name {
+        font-size: 1.4rem;
+    }
+
+    .mini-description {
+        font-size: 1.02rem;
+    }
+
+    .mini-meta {
+        gap: 0.9rem 1.4rem;
+        font-size: 0.95rem;
+    }
+}
+
+/* =============================================
+   Patents / Research Papers Section
+   ============================================= */
+
+.researchpapers-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+}
+
+.researchpapers-section h2 {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-size: 2.2rem;
+    color: #2d3748;
+}
+
+/* Each patent card */
+.patent-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);
+    padding: 2rem 2.2rem;
+    margin-bottom: 2rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-left: 5px solid #9f7aea; /* purple accent – research/academic vibe */
+}
+
+.patent-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Patent title */
+.patent-title {
+    font-size: 1.55rem;
+    font-weight: 700;
+    color: #6b46c1; /* deeper purple */
+    margin: 0 0 0.8rem 0;
+}
+
+/* Application number */
+.patent-app-number {
+    font-size: 1.05rem;
+    color: #4a5568;
+    margin-bottom: 1.2rem;
+    font-weight: 500;
+}
+
+.patent-app-number strong {
+    color: #2d3748;
+}
+
+/* Description */
+.patent-description {
+    font-size: 1.07rem;
+    line-height: 1.65;
+    color: #4a5568;
+    margin-bottom: 1.6rem;
+}
+
+/* Metadata */
+.patent-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem 1.8rem;
+    margin-bottom: 1.4rem;
+    font-size: 0.98rem;
+}
+
+.patent-meta-item {
+    color: #4a5568;
+}
+
+.patent-meta-item strong {
+    color: #2d3748;
+}
+
+/* Link */
+.patent-link {
+    display: inline-block;
+    margin-top: 0.6rem;
+    color: #9f7aea;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.patent-link:hover {
+    color: #6b46c1;
+    text-decoration: underline;
+}
+
+/* Mobile adjustments */
+@media (max-width: 640px) {
+    .patent-card {
+        padding: 1.6rem 1.4rem;
+        border-left-width: 4px;
+    }
+
+    .patent-title {
+        font-size: 1.4rem;
+    }
+
+    .patent-app-number {
+        font-size: 1rem;
+    }
+
+    .patent-description {
+        font-size: 1.02rem;
+    }
+
+    .patent-meta {
+        gap: 0.9rem 1.4rem;
+        font-size: 0.95rem;
+    }
+}
+
+/* =============================================
+   Achievements Section
+   ============================================= */
+
+.achievements-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+}
+
+.achievements-section h2 {
+    text-align: center;
+    margin-bottom: 2.8rem;
+    font-size: 2.2rem;
+    color: #2d3748;
+}
+
+/* Group headings (Contests, Certifications) */
+.achievement-group {
+    margin-bottom: 2.8rem;
+}
+
+.group-title {
+    font-size: 1.65rem;
+    font-weight: 700;
+    color: #2d3748;
+    margin: 0 0 1.4rem 0;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+/* Individual achievement card */
+.achievement-card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.06);
+    padding: 1.4rem 1.8rem;
+    margin-bottom: 1.1rem;
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.achievement-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Contest-specific styling */
+.achievement-card.contest {
+    border-left: 5px solid #f6ad55; /* warm orange/gold for wins & ranks */
+}
+
+.ach-title {
+    font-size: 1.28rem;
+    font-weight: 700;
+    color: #2d3748;
+    margin: 0 0 0.5rem 0;
+}
+
+.ach-position {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #c05621; /* darker orange */
+    margin-bottom: 0.4rem;
+}
+
+.ach-year {
+    font-size: 0.95rem;
+    color: #718096;
+    font-style: italic;
+}
+
+/* Certification-specific styling */
+.achievement-card.certification {
+    border-left: 5px solid #4299e1; /* blue for certs */
+}
+
+.ach-platform {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #2b6cb0;
+    margin-bottom: 0.5rem;
+}
+
+.ach-level {
+    font-size: 1rem;
+    color: #744210; /* bronze/silver tone */
+    font-weight: 500;
+    margin-top: 0.6rem;
+}
+
+/* Mobile adjustments */
+@media (max-width: 640px) {
+    .achievement-card {
+        padding: 1.2rem 1.4rem;
+        border-left-width: 4px;
+    }
+
+    .group-title {
+        font-size: 1.5rem;
+    }
+
+    .ach-title {
+        font-size: 1.18rem;
+    }
+
+    .ach-position,
+    .ach-platform {
+        font-size: 1.02rem;
+    }
+}
+
+/* =============================================
+   LEADERSHIP / EXECUTIVE SECTION – FRESH STYLING
+   ============================================= */
+
+.executive-tile {
+    display: grid;
+    grid-template-columns: 1fr 260px;
+    gap: 2.2rem;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+    padding: 2.1rem 2.3rem;
+    margin-bottom: 2.3rem;
+    transition: transform 0.22s ease, box-shadow 0.22s ease;
+    border-top: 4px solid #7c3aed; /* purple accent – leadership feel */
+}
+
+.executive-tile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 16px 40px rgba(0,0,0,0.13);
+}
+
+/* Left side – text information */
+.executive-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.15rem;
+}
+
+.executive-line {
+    display: flex;
+    gap: 1.3rem;
+    font-size: 1.07rem;
+    line-height: 1.55;
+}
+
+.executive-label {
+    font-weight: 600;
+    color: #4c1d95;
+    min-width: 155px;
+    flex-shrink: 0;
+}
+
+.executive-value {
+    color: #1e293b;
+    flex: 1;
+}
+
+/* Full-width rows for longer content */
+.executive-wide {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+}
+
+.executive-wide .executive-label {
+    min-width: auto;
+    font-weight: 700;
+}
+
+/* Right side – photo / portrait */
+.executive-portrait {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f3e8ff, #f3f4f6);
+    border-radius: 12px;
+    padding: 1.4rem;
+}
+
+.executive-photo {
+    max-width: 100%;
+    max-height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.executive-no-photo {
+    color: #6b7280;
+    font-size: 0.95rem;
+    font-style: italic;
+    text-align: center;
+}
+
+/* States */
+.executive-empty {
+    text-align: center;
+    color: #6b7280;
+    padding: 3rem 1rem;
+    font-style: italic;
+}
+
+.executive-error {
+    text-align: center;
+    color: #dc2626;
+    padding: 2rem;
+    font-weight: 500;
+}
+
+/* Mobile stacking */
+@media (max-width: 780px) {
+    .executive-tile {
+        grid-template-columns: 1fr;
+        gap: 1.8rem;
+        padding: 1.7rem 1.5rem;
+        border-top-width: 3px;
+    }
+
+    .executive-portrait {
+        order: -1;
+        padding: 1.3rem;
+    }
+
+    .executive-photo {
+        max-height: 180px;
+    }
+
+    .executive-label {
+        min-width: 130px;
+    }
+}
+
