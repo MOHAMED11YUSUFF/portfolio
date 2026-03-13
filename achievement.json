@@ -2,6 +2,10 @@
   "achievements": {
     "contests": [
       {
+        "title": "Techhunt",
+        "position": "Runner Up"
+      },
+      {
         "title": "Blind Coding Contest",
         "position": "Winner"
       },
