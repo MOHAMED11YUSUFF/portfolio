@@ -3,11 +3,13 @@
     "contests": [
       {
         "title": "Techhunt",
-        "position": "Runner Up"
+        "position": "Runner Up",
+        "year": 2026
       },
       {
         "title": "Blind Coding Contest",
-        "position": "Winner"
+        "position": "Winner",
+        "year": 2025,
       },
       {
         "title": "Debugging Contest hosted by Eventhra",
@@ -16,7 +18,8 @@
       },
       {
         "title": "CBSE Class 12 Mathematics",
-        "position": "First Rank"
+        "position": "First Rank",
+        "year": 2023
       }
     ],
     "certifications": [
