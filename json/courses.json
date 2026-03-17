@@ -1,0 +1,80 @@
+[
+  {
+    "Name": "Getting Started with Competitive Programming",
+    "Date": "April 2025",
+    "Score": "76/100",
+    "Verification": {
+      "display_name": "NPTEL Profile",
+      "url": "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL25CS36S54320810604313721"
+    },
+    "image_path": "images/courses/getting std with competitive prog.png",
+    "description": "Successfully completed the NPTEL Getting Started with Competitive Programming course with a solid score of 76%. Developed strong skills in algorithms, problem-solving, and optimizing code performance."
+  },
+  {
+    "Name": "Reinforcement Learning",
+    "Date": "Oct 2024",
+    "image_path": "images/courses/reinforcement.png",
+    "score": "53/100",
+    "Verification": {
+      "display_name": "NPTEL Profile",
+      "url": "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS102S55630031704136260"
+    },
+    "description": "Completed an introductory course on Reinforcement Learning, gaining hands-on experience with reward-based learning algorithms. Built foundational knowledge for applying RL in practical scenarios."
+  },
+  {
+    "Name": "Entrepreneurship Essentials",
+    "Date": "Apr 2025",
+    "image_path": "images/courses/ent ess.png",
+    "score": "64/100",
+    "Verification": {
+      "display_name": "NPTEL Profile",
+      "url": "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL25GE11S114320418004313721"
+    },
+    "description": "Learned core concepts of entrepreneurship, including business planning and market analysis. Developed skills to ideate and evaluate startup opportunities effectively."
+  },
+  {
+    "Name": "IBM Data Science",
+    "Date": "March 2025",
+    "image_path": "images/courses/ibm ds.png",
+    "Verification": {
+      "display_name": "Coursera Profile",
+      "url": "https://www.coursera.org/account/accomplishments/professional-cert/DBC9QBYZGOX3"
+    },
+    "description": "Completed IBM's Data Science course, covering Python, data visualization, and machine learning fundamentals. Gained practical skills for real-world data analysis projects."
+  },
+    {
+    "Award name": "Humming Bird's Tamil Language olympaid",
+    "Position": "Second Runner",
+    "Description": "Worked on an innovative engineering solution focusing on automation and AI integration in manufacturing systems.",
+    "date": "October 2019",
+    "image_path": "images/courses/hummingbird.jpg"
+  },
+  {
+    "Name": "Introduction to MongoDB for Students",
+    "Date": "July 2024",
+    "image_path": "images/courses/mongodb.png",
+    "description": "Learned the basics of MongoDB, including document storage, queries, and data modeling. Applied knowledge by creating simple databases and performing CRUD operations."
+  },
+  {
+    "Name": "Learnathon 2024",
+    "Date": "Oct 2024",
+    "image_path": "images/courses/learnathon.png",
+    "description": "Completed multiple learning modules from Microsoft, Bentley, Celonis, Google Developers, MathWorks, MongoDB, Qlik, UiPath, Wadhwani Foundation, and AWS Academy. This program demonstrates consistent engagement with a wide variety of technology platforms."
+  },
+  {
+    "Name": "Explore Machine Learning using Python",
+    "Date": "Sept 2024",
+    "image_path": "images/courses/ml using py.png",
+    "description": "Learned key concepts of machine learning using Python, including regression, classification, and data preprocessing. Built small projects to apply algorithms on real datasets."
+  },
+  {
+    "Name": "Cloud Computing Premier",
+    "Date": "Sept 2025",
+    "image_path": "images/courses/cloud computing premier.png",
+    "Verification": {
+      "display_name": "Coursera Profile",
+      "url": "https://www.coursera.org/account/accomplishments/verify/VEDXEOBY2DI2"
+    },
+    "description": "Explored advanced concepts of cloud computing, including distributed systems and deployment strategies. Developed understanding of cloud-based applications and infrastructure management."
+  }
+]

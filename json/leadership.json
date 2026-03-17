@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Assistant School Pupil Leader",
+    "school": "Sana Model School",
+    "year": "2021-2022",
+    "image_path": "images\\leaderships\\sms.png"
+  },
+  {
+    "title": "Safa House Captain",
+    "school": "Sana Model School",
+    "year": "2022-2023",
+    "image_path": "images\\leaderships\\sms.png"
+  },
+  {
+    "title": "Hosted Technical Quiz Event",
+    "event": "Brain Squeezer - Pinnacle 2K25",
+    "participants": 50,
+    "date": "22nd Feb 2025",
+    "image_path": "images\\leaderships\\eec.png"
+  },
+  {
+    "title": "ISTE Student Member",
+    "duration": "2024-2028",
+    "image_path": "images\\leaderships\\iste.png"
+  },
+  {
+    "title": "Best Volunteer",
+    "school": "Sana Model School",
+    "date": "Sept 2022",
+    "image_path": "images\\leaderships\\best volunteer.jpg"
+  }
+]

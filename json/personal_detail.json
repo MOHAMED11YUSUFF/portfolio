@@ -1,0 +1,39 @@
+{
+  "image": "images\\personaldetail\\Mohamed Yusuff.jpg",
+
+  "about": "I am Mohamed Yusuff, an aspiring Data Scientist and Machine Learning Engineer pursuing B.Tech in Information Technology at Easwari Engineering College. Passionate about problem-solving and technology, I have hands-on experience in Python, Django, FastAPI, and AI/ML projects. I am eager to work across tech stacks—from full-stack development to data science and cloud solutions—as a Software Engineer Intern, and grow into a Software Engineer Trainee.",
+
+  "Name": "Mohamed Yusuff S",
+
+  "Contact": "8608290486",
+
+  "Email": "mdyusuffprsnl@gmail.com",
+
+  "Linkedin": {
+    "display name": "LinkedIn Profile",
+    "url": "https://www.linkedin.com/in/mohamed-yusuff-593889292"
+  },
+
+  "Github": {
+    "display name": "GitHub Profile",
+    "url": "https://github.com/MOHAMED11YUSUFF"
+  },
+
+  "Leetcode": {
+    "display name": "LeetCode Profile",
+    "url": "https://leetcode.com/u/MOHAMED_YUSUFF"
+  },
+
+  "Hackerrank": {
+    "display name": "HackerRank Profile",
+    "url": "https://www.hackerrank.com/profile/yusuff_smy_11"
+  },
+  "Youtube": {
+    "display name": "Youtube Profile",
+    "url": "https://youtube.com/@smy_yusuff?si=uxlQJhwFg5yJaAgb"
+  },
+  "Devpost": {
+    "display name": "Devpost profile",
+    "url": "https://devpost.com/mdyusuffprsnl"
+  }
+}

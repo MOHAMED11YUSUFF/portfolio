@@ -1,0 +1,12 @@
+[
+  {
+    "Project Name": "Patent Duplicate Detector",
+    "description": "A tool that identifies duplicate or highly similar patents by leveraging Sentence Transformers to generate embeddings and compute similarity scores. The system highlights potential duplicates and calculates the proportion of matching content, helping researchers and patent analysts avoid redundancy and ensure originality.",
+    "reference": "<a href='https://github.com/MOHAMED11YUSUFF/texus' target='_blank'>View Project</a>"
+  },
+  {
+    "Project Name": "AI-powered Automated Testing for OTT and Digital TV Platforms",
+    "description": "An AI-powered automated testing framework tailored for OTT & Digital TV platforms. Features include AI-generated test cases, self-healing scripts, visual testing with deep learning, predictive test optimization, CI/CD integration, AI-driven failure analysis, anomaly detection, automated reporting, personalized dashboards, risk assessment, and documentation automation.",
+    "reference": "<a href='https://github.com/MOHAMED11YUSUFF/smy-netflix' target='_blank'>View Project</a>"
+  }
+]

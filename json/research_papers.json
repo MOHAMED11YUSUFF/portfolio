@@ -1,0 +1,12 @@
+[
+    {
+      "title": "TAKAVAAN",
+      "application_number": "202541067395",
+      "description": "Takavaan is an AI-powered platform that transforms raw data into actionable insights by automatically cleaning, analyzing, and visualizing datasets using natural language queries. It generates executable Python code, interactive reports, and explainable AI insights, enabling users to perform complex analyses without programming expertise."
+    },
+    {
+      "title": "DEALER DETECT",
+      "application_number": "202541058937",
+      "description": "This invention combats drug trafficking by ethically phishing targets to install a stealth app that captures communication data, which is then analyzed by an LLM to detect drug-related activity. It provides real-time insights, dashboards, and actionable information to law enforcement while adhering to legal and ethical standards."
+    }
+  ]

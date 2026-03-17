@@ -1,0 +1,36 @@
+[
+  {
+    "image_path": "images/education/eec.png",
+    "Institute Name": "Easwari Engineering College",
+    "Degree": "B.Tech",
+    "Branch": "Information Technology",
+    "Website": {
+      "display_name": "Easwari Engineering College",
+      "url": "https://srmeaswari.ac.in/"
+    },
+    "Batch": "2023-2027",
+    "CGPA": "8.61/10"
+  },
+  {
+    "image_path": "images/education/sms.png",
+    "School Name": "Sana Model School",
+    "Class": "Higher Secondary School",
+    "Website": {
+      "display_name": "Sana Model School",
+      "url": "https://www.sanamodelschool.com/"
+    },
+    "Batch": "2021-2023",
+    "Marks": "89.8%"
+  },
+  {
+    "image_path": "images/education/sms.png",
+    "School Name": "Sana Model School",
+    "Class": "High School",
+    "Website": {
+      "display_name": "Sana Model School",
+      "url": "https://www.sanamodelschool.com/"
+    },
+    "Batch": "2019-2021",
+    "Marks": "95.2%"
+  }
+]

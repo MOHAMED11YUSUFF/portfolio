@@ -1,0 +1,48 @@
+[
+  {
+    "Hackathon name": "Tableau Hackathon",
+    "image_path": "images/hackathon/amr.png",
+    "project_title": "AMR Sentinel",
+    "description": "AMR Sentinel is an AI-powered Tableau Next platform that proactively detects emerging antimicrobial resistance threats using phenotypic surveillance data and delivers actionable recommendations to pharmaceutical teams. It de-risks drug development, accelerates regulatory compliance, and enables real-time, automated responses through Slack and Salesforce integration.",
+    "team mates": [
+      {
+        "name": "Madhu Ram Prakash C",
+        "reference link of name": "https://www.linkedin.com/in/madhu-ram-prakash-c-319283293?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BgB%2FyOK%2BFQkW6Iuz6mptKyg%3D%3D"
+      },
+      {
+        "name": "Muthubalaganesh B",
+        "reference link of name": "https://www.linkedin.com/in/muthubalaganesh-b-129942315?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BN0l3GEzZSj%2BIL6vULjusLQ%3D%3D"
+      },
+      {
+        "name": "Kirutika J",
+        "reference link of name": "https://www.linkedin.com/in/kiruthika-j-a3b69730b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BJZYi2Ct3RjClJRC3LQCPdw%3D%3D"
+      }
+    ],
+    "Reference": "<a href='https://devpost.com/software/amr-sentinel?ref_content=user-portfolio&ref_feature=in_progress' target='_blank'>View Project</a>",
+    "Youtube Reference": "<a href='https://youtu.be/ai_E_dqdJj0' target='_blank'>View Video demonstration</a>"
+
+  },
+  {
+    "Hackathon name": "Techsavvy Hackathon",
+    "image_path": "images/hackathon/cyber.png",
+    "project_title": "Phishing Protection System",
+    "description": "An end-to-end cybersecurity solution focused on data and privacy protection. The project features a React-based dashboard, browser extensions for real-time email parsing and HTML data extraction, and a robust Django/FastAPI backend. It integrates machine learning models with open-source intelligence from PhishTank and OpenPhish to provide high-accuracy risk scores and detailed reporting on malicious URLs and emails.",
+    "team mates": [
+      {
+        "name": "Mohamed Aasif Ghani",
+        "reference link of name": "https://www.linkedin.com/in/mohamed-aasif-ghani-4801bb292?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BMCUNGuVVQmCn9BTZAntACg%3D%3D"
+      },
+      {
+        "name": "Hemalatha V",
+        "reference link of name": "https://www.linkedin.com/in/hemalatha-venkatesan1124?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Ba0B4SrwhRJiP2RUqiWoczA%3D%3D"
+      },
+      {
+        "name": "Mridula S",
+        "reference link of name": "https://www.linkedin.com/in/mriselv3006?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BOgvb%2BJlDT5yCjxa3DtWeMA%3D%3D"
+      }
+    ],
+    "Reference": "<a href='https://github.com/MOHAMED11YUSUFF/techsavvy' target='_blank'>View Project</a>",
+    "Youtube Reference": "<a href='https://youtu.be/fkW7nnEQsM4' target='_blank'>View Video demonstration</a>"
+
+  }
+]

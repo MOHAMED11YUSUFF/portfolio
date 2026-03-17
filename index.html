@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>My Portfolio</title>
+
+<style>
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+/* section container */
+
+.portfolio-section{
+    padding:60px 20px;
+}
+
+/* alternating colors */
+
+.portfolio-section:nth-child(odd){
+    background:white;
+}
+
+.portfolio-section:nth-child(even){
+    background:#f2f2f2;
+}
+
+/* center titles */
+
+h2{
+    text-align:center;
+    margin-bottom:30px;
+    font-size:28px;
+}
+
+/* inner content box */
+
+.section-box{
+    max-width:1200px;
+    margin:auto;
+}
+
+/* personal details */
+
+.center-text{
+    text-align:center;
+}
+
+/* skill list */
+
+.skill-list{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:12px;
+}
+
+.skill{
+    background:#2563eb;
+    color:white;
+    padding:8px 16px;
+    border-radius:20px;
+    font-size:14px;
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+<!-- PERSONAL DETAILS -->
+
+<div class="portfolio-section">
+
+<h2>Personal Details</h2>
+
+<div class="section-box">
+
+<div id="personal-details-container"></div>
+
+</div>
+
+</div>
+
+
+
+<!-- EDUCATION -->
+
+<div class="portfolio-section">
+
+<h2>Education Details</h2>
+
+<div class="section-box">
+<div id="education-container"></div>
+</div>
+
+</div>
+
+
+
+<!-- SKILLS -->
+
+<div class="portfolio-section">
+
+<h2>Skill Set</h2>
+
+<div class="section-box">
+
+<div id="skillset-container"></div>
+
+</div>
+
+</div>
+
+
+<!-- WORK EXPERIENCE -->
+
+<div class="portfolio-section">
+
+<h2>Work Experience</h2>
+
+<div class="section-box">
+<div id="work-container"></div>
+</div>
+
+</div>
+
+
+
+<!-- LEADERSHIP -->
+
+<div class="portfolio-section">
+
+<h2>Leaderships and Activities</h2>
+
+<div class="section-box">
+<div id="leadership-container"></div>
+</div>
+
+</div>
+
+
+
+<!-- ACHIEVEMENTS -->
+
+<div class="portfolio-section">
+
+<h2>Achievements</h2>
+
+<div class="section-box">
+<div id="achievements-container"></div>
+</div>
+
+</div>
+
+
+
+<!-- HACKATHON PROJECTS -->
+
+<div class="portfolio-section">
+
+<h2>Hackathon Projects</h2>
+
+<div class="section-box">
+<div id="hackathon-container"></div>
+</div>
+
+</div>
+
+
+
+<!-- MINI PROJECTS -->
+
+<div class="portfolio-section">
+
+<h2>Mini Projects</h2>
+
+<div class="section-box">
+<div id="mini-projects-container"></div>
+</div>
+
+</div>
+
+
+
+<!-- RESEARCH PAPERS -->
+
+<div class="portfolio-section">
+
+<h2>Research Papers Published</h2>
+
+<div class="section-box">
+<div id="research-container"></div>
+</div>
+
+</div>
+
+
+
+<!-- COURSES -->
+
+<div class="portfolio-section">
+
+<h2>Courses and Certification</h2>
+
+<div class="section-box">
+<div id="courses-container"></div>
+</div>
+
+</div>
+
+
+
+<script src="scripts.js"></script>
+
+<script>
+
+/* JSON loading */
+
+renderSections("json/education.json","education-container");
+renderSections("json/work_experience.json","work-container");
+renderSections("json/leadership.json","leadership-container");
+renderSections("json/achievements.json","achievements-container");
+renderSections("json/hackathons.json","hackathon-container");
+renderSections("json/mini_projects.json","mini-projects-container");
+renderSections("json/research_papers.json","research-container");
+renderSections("json/courses.json","courses-container");
+renderPersonalDetails(
+    "json/personal_detail.json",
+    "personal-details-container"
+);
+renderSkillSet("json/skillset.json","skillset-container");
+
+</script>
+
+
+</body>
+
+</html>

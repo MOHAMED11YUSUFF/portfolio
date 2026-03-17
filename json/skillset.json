@@ -1,0 +1,167 @@
+[
+  {
+    "domain": "Programming Languages",
+    "name": "Python",
+    "image": "images\\skillset\\python.png"
+  },
+  {
+    "domain": "Programming Languages",
+    "name": "Java",
+    "image": "images\\skillset\\java.png"
+  },
+  {
+    "domain": "Programming Languages",
+    "name": "C++",
+    "image": "images\\skillset\\cpp.png"
+  },
+  {
+    "domain": "Programming Languages",
+    "name": "C",
+    "image": "images\\skillset\\c.png"
+  },
+  {
+    "domain": "Databases and Cloud",
+    "name": "Oracle SQL",
+    "image": "images\\skillset\\oracle.png"
+  },
+  {
+    "domain": "Databases and Cloud",
+    "name": "MySQL",
+    "image": "images\\skillset\\mysql.png"
+  },
+  {
+    "domain": "Databases and Cloud",
+    "name": "SQL Server",
+    "image": "images\\skillset\\sqlserver.png"
+  },
+  {
+    "domain": "Databases and Cloud",
+    "name": "PostgreSQL",
+    "image": "images\\skillset\\postgresql.png"
+  },
+  {
+    "domain": "Databases and Cloud",
+    "name": "MongoDB",
+    "image": "images\\skillset\\mongodb.png"
+  },
+  {
+    "domain": "Databases and Cloud",
+    "name": "Google Cloud",
+    "image": "images\\skillset\\gcloud.png"
+  },
+  {
+    "domain": "Tools & Frameworks",
+    "name": "Django",
+    "image": "images\\skillset\\django.png"
+  },
+  {
+    "domain": "Tools & Frameworks",
+    "name": "FastAPI",
+    "image": "images\\skillset\\fastapi.png"
+  },
+  {
+    "domain": "Tools & Frameworks",
+    "name": "Angular",
+    "image": "images\\skillset\\angular.png"
+  },
+  {
+    "domain": "Tools & Frameworks",
+    "name": "React",
+    "image": "images\\skillset\\react.png"
+  },
+  {
+    "domain": "Tools & Frameworks",
+    "name": "DBeaver",
+    "image": "images\\skillset\\dbeaver.png"
+  },
+  {
+    "domain": "Tools & Frameworks",
+    "name": "Postman",
+    "image": "images\\skillset\\postman.png"
+  },
+  {
+    "domain": "Data Science Framework",
+    "name": "NumPy",
+    "image": "images\\skillset\\numpy.png"
+  },
+  {
+    "domain": "Data Science Framework",
+    "name": "Pandas",
+    "image": "images\\skillset\\pandas.png"
+  },
+  {
+    "domain": "Data Science Framework",
+    "name": "Matplotlib",
+    "image": "images\\skillset\\matplotlib.png"
+  },
+  {
+    "domain": "Data Science Framework",
+    "name": "Seaborn",
+    "image": "images\\skillset\\seaborn.png"
+  },
+  {
+    "domain": "Data Science Framework",
+    "name": "Scikit-learn",
+    "image": "images\\skillset\\sklearn.png"
+  },
+  {
+    "domain": "Data Science Framework",
+    "name": "Sentence Transformer",
+    "image": "images\\skillset\\sentencetransformer.png"
+  },
+  {
+    "domain": "Data Science Framework",
+    "name": "Tableau",
+    "image": "images\\skillset\\tableau.png"
+  },
+  {
+    "domain": "Soft Skills",
+    "name": "Problem Solving",
+    "image": "images\\skillset\\problem_solving.png"
+  },
+  {
+    "domain": "Soft Skills",
+    "name": "Analytical Thinking",
+    "image": "images\\skillset\\analytical.png"
+  },
+  {
+    "domain": "Soft Skills",
+    "name": "Communication",
+    "image": "images\\skillset\\communication.png"
+  },
+  {
+    "domain": "Soft Skills",
+    "name": "Team Collaboration",
+    "image": "images\\skillset\\teamwork.png"
+  },
+  {
+    "domain": "Soft Skills",
+    "name": "Time Management",
+    "image": "images\\skillset\\time_management.png"
+  },
+  {
+    "domain": "Soft Skills",
+    "name": "Adaptability",
+    "image": "images\\skillset\\adaptability.png"
+  },
+  {
+    "domain": "Soft Skills",
+    "name": "Continuous Learning",
+    "image": "images\\skillset\\learning.png"
+  },
+  {
+    "domain": "Languages",
+    "name": "Tamil",
+    "image": "images\\skillset\\tamil.png"
+  },
+  {
+    "domain": "Languages",
+    "name": "English",
+    "image": "images\\skillset\\english.png"
+  },
+    {
+    "domain": "Data Science Framework",
+    "name": "Tableau Next",
+    "image": "images\\skillset\\tabnext.png"
+  }
+]

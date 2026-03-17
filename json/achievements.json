@@ -1,0 +1,111 @@
+[
+  {
+    "Event name": "TechHunt",
+    "Position": "Runner-Up",
+    "Description": "Achieved Runner-Up in a competitive coding contest focused on problem-solving, algorithms, and real-time logical challenges.",
+    "Held At": {
+      "display_name": "Easwari Engineering College",
+      "url": "https://srmeaswari.ac.in/"
+    },
+    "team mates": [
+      {
+        "name": "Mounika Shree N G",
+        "reference link of name": "https://www.linkedin.com/in/mounika-shree-n-g?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2BkLgB3mQS9mMf8PWpW%2Bcmg%3D%3D"
+      }
+    ],
+    "date": "March 2026",
+    "image_path": "images/achievements/techhunt.jpg"
+  },
+  {
+    "Event name": "Blind-Coding",
+    "Position": "Winner",
+    "Description": "Won first place in a blind coding contest that tested coding accuracy, logic building, and debugging skills without real-time output visibility.",
+    "Held At": {
+      "display_name": "Easwari Engineering College",
+      "url": "https://srmeaswari.ac.in/"
+    },
+    "team mates": [
+      {
+        "name": "Madhu Ram Prakash C",
+        "reference link of name": "https://www.linkedin.com/in/madhu-ram-prakash-c-319283293?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BgB%2FyOK%2BFQkW6Iuz6mptKyg%3D%3D"
+      }
+    ],
+    "date": "November 2025",
+    "image_path": "images/achievements/blind coding.png"
+  },
+  {
+    "Event name": "Debugging Contest",
+    "Position": "Runner-Up",
+    "Description": "Secured Runner-Up position in a coding contest focused on identifying and fixing bugs efficiently under time constraints.",
+    "Held At": {
+      "display_name": "Easwari Engineering College",
+      "url": "https://srmeaswari.ac.in/"
+    },
+    "date": "November 2025",
+    "image_path": "images/achievements/debugging.jpg"
+  },
+  {
+    "Award name": "Math topper",
+    "Position": "Winner",
+    "Description": "Achieved top rank in Mathematics in the CBSE board examination, demonstrating strong analytical and problem-solving skills.",
+    "Held At": {
+      "display_name": "Sana Model School",
+      "url": "https://www.sanamodelschool.com/"
+    },
+    "date": "March 2023",
+    "image_path": "images/achievements/math topper.jpg"
+  },
+  {
+    "Award name": "General Proficiency",
+    "Description": "Awarded for securing first rank in 11th standard, recognizing overall academic excellence across all subjects.",
+    "Held At": {
+      "display_name": "Sana Model School",
+      "url": "https://www.sanamodelschool.com/"
+    },
+    "date": "October 2022",
+    "image_path": "images/achievements/general profency.jpg"
+  },
+  {
+    "Event name": "Essay Writing Competition",
+    "Position": "Winner",
+    "Description": "Won first place in an essay writing competition, showcasing strong communication, creativity, and critical thinking skills.",
+    "Held At": {
+      "display_name": "Sana Model School",
+      "url": "https://www.sanamodelschool.com/"
+    },
+    "date": "August 2022",
+    "image_path": "images/achievements/essay.jpg"
+  },
+  {
+    "Event name": "Elocution",
+    "Position": "Winner",
+    "Description": "Won first place in an elocution competition, demonstrating excellence in public speaking, confidence, and articulation.",
+    "Held At": {
+      "display_name": "Sana Model School",
+      "url": "https://www.sanamodelschool.com/"
+    },
+    "date": "July 2022",
+    "image_path": "images/achievements/elocution.jpg"
+  },
+  {
+    "Event name": "Maker Fest",
+    "Position": "Second Runner-Up",
+    "Description": "Achieved Second Runner-Up in Maker Fest for developing an innovative solution, marking the first major achievement in building creative engineering projects.",
+    "Held At": {
+      "display_name": "Al-Qamar Academy",
+      "url": "https://www.alqamaracademy.in/"
+    },
+    "team mates": [
+      {
+        "name": "Mohamed Hussain N",
+        "reference link of name": "https://www.linkedin.com/in/mohamed-hussain-n-?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BEil7zN%2B5T%2FWEPYdvaLilfQ%3D%3D"
+      },
+      {
+        "name": "Abraar Ahmed",
+        "reference link of name": "https://www.linkedin.com/in/mohamed-hussain-n-?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BEil7zN%2B5T%2FWEPYdvaLilfQ%3D%3D"
+      }
+    ],
+    "date": "February 2020",
+    "image_path": "images/achievements/supernova.jpg"
+  }
+]

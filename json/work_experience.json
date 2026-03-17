@@ -1,0 +1,25 @@
+[
+  {
+    "image_path": "images/education/eec.png",
+    "company": "Research And Development Easwari Engineering College",
+    "role": "Research Intern",
+    "duration": "Apr 2025 - June 2025",
+    "Website": {
+      "display_name": "Easwari Engineering College",
+      "url": "https://srmeaswari.ac.in/"
+    },
+    "description": "Worked for Illumine as a backend developer, using Gemma LLM and Tesseract OCR to detect customer addresses from large mixed-format documents including PDFs with text, images, and tables, as well as image-only files."
+  },
+  {
+    "image_path": "images/work/tvsnext.png",
+    "company": "TVS Next",
+    "role": "Backend Developer Intern",
+    "duration": "Jul 2025 - Oct 2025",
+    "Website": {
+      "display_name": "TVS Next",
+      "url": "https://tvsnext.com/"
+    },
+    "description": "Worked as a Django Developer on the NexDox platform, building features using Django, FastAPI integration, and PostgreSQL/SQL Server. Gained hands-on experience with function-based views, API development, and foundational Google Cloud services.",
+    "Reporting Manager": "<a href='https://www.linkedin.com/in/kishore-b-tpm?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BzZsFRgKOTNmtR%2BnVymMiZw%3D%3D'>Kishore B</a>"
+  }
+]
